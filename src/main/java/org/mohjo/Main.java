@@ -7,6 +7,7 @@ import org.mohjo.momento.History;
 import org.mohjo.state.BrushTool;
 import org.mohjo.state.Canvas;
 import org.mohjo.state.SelectionTool;
+import org.mohjo.strategy.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -59,7 +60,7 @@ public class Main {
         }
 
         Solution code :
-        */
+
 
         var bh = new BrowserHistory();
 
@@ -75,6 +76,21 @@ public class Main {
             System.out.println(currUrl);
             itr.next();
         }
+
+        */
+
+        // For Strategy Pattern
+        /*
+        var imageStorage = new ImageStorage(
+                new PngCompressor(),
+                new HighContrastFilter()
+        );
+        imageStorage.store("flipkart");
+        */
+        var imageStorage = new ImageStorage();
+        imageStorage.store("flipkart", new JpegCompressor(), new BlackAndWhiteFilter());
+        // calling same object to save image in the database with the different compression algorithm.
+        imageStorage.store("flipkart", new PngCompressor(), new BlackAndWhiteFilter());
 
 
 
