@@ -8,6 +8,9 @@ import org.mohjo.state.BrushTool;
 import org.mohjo.state.Canvas;
 import org.mohjo.state.SelectionTool;
 import org.mohjo.strategy.*;
+import org.mohjo.template.AuditTrail;
+import org.mohjo.template.GenerateReport;
+import org.mohjo.template.TransferMoneyTask;
 
 public class Main {
     public static void main(String[] args) {
@@ -86,11 +89,19 @@ public class Main {
                 new HighContrastFilter()
         );
         imageStorage.store("flipkart");
-        */
+
+
+        // Optimized one
         var imageStorage = new ImageStorage();
         imageStorage.store("flipkart", new JpegCompressor(), new BlackAndWhiteFilter());
         // calling same object to save image in the database with the different compression algorithm.
         imageStorage.store("flipkart", new PngCompressor(), new BlackAndWhiteFilter());
+        */
+
+        var transferMoney = new TransferMoneyTask();
+        transferMoney.execute();
+        var generateReport = new GenerateReport();
+        generateReport.execute();
 
 
 

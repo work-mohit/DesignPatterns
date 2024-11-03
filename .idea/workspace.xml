@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31e1214d-9467-420a-8805-66b73f6ff345" name="Changes" comment="added Iterator pattern implementation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/iterator/ProductCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/strategy/BlackAndWhiteFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/strategy/Compressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/strategy/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/strategy/HighContrastFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/strategy/ImageStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/strategy/JpegCompressor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/strategy/PngCompressor.java" afterDir="false" />
+    <list default="true" id="31e1214d-9467-420a-8805-66b73f6ff345" name="Changes" comment="added strategy pattern implementation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/template/AuditTrail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/template/GenerateReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/template/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/template/TransferMoneyTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mohjo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/Main.java" afterDir="false" />
     </list>
@@ -138,12 +134,20 @@
       <option name="project" value="LOCAL" />
       <updated>1730568636722</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added strategy pattern implementation">
+      <created>1730575093649</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730575093650</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added implementation of Momento and State pattern" />
     <MESSAGE value="added Iterator pattern implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Iterator pattern implementation" />
+    <MESSAGE value="added strategy pattern implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added strategy pattern implementation" />
   </component>
 </project>
