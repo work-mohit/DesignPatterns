@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31e1214d-9467-420a-8805-66b73f6ff345" name="Changes" comment="added strategy pattern implementation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/template/AuditTrail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/template/GenerateReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/template/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/template/TransferMoneyTask.java" afterDir="false" />
+    <list default="true" id="31e1214d-9467-420a-8805-66b73f6ff345" name="Changes" comment="added template pattern implementation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/command/AddCustomerCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/command/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/command/composite/BlackAndWhiteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/command/composite/CompositeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/command/composite/ResizeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/command/framework/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/command/framework/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/observer/Chart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/observer/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/observer/Sheet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mohjo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mohjo/Main.java" afterDir="false" />
     </list>
@@ -31,7 +39,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2oeFx8czHsxzxz7xSi6riUzEhsr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,6 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "G:/Springboot Learning/DesignPatterns",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -141,13 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730575093650</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added template pattern implementation">
+      <created>1730621609678</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730621609678</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added implementation of Momento and State pattern" />
     <MESSAGE value="added Iterator pattern implementation" />
     <MESSAGE value="added strategy pattern implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added strategy pattern implementation" />
+    <MESSAGE value="added template pattern implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added template pattern implementation" />
   </component>
 </project>
